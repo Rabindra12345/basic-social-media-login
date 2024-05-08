@@ -1,0 +1,15 @@
+
+server:
+  port: 8081
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          github:
+            client-id:  Ov23cttNePzhMT3mguab
+            client-secret: 9a7424b88ee43ed13211fa7b2817202b8dc1111b
+          google:
+            client-id: 16053041753-784busjph32jrfhljj9hp1vmc6d1j2bt.apps.googleusercontent.com
+            client-secret: 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
+#            redirect-uri: http://localhost:8081/login/oauth2/code/github
